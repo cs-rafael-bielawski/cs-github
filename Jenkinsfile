@@ -5,6 +5,6 @@ stage 'Checkout'
       }
 
 stage 'Code Pull'
- node ('pull') {
-   git url: 'https://github.com/cs-rafael-bielawski/cs-github.git'
+ node ('master') {
+   git pull scm
  	  }
