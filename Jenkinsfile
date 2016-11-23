@@ -6,5 +6,5 @@ stage 'Checkout'
 
 stage 'Code Pull'
  node ('master') {
-   gitpull scm
+   git pull
  	  }
