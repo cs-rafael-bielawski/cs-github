@@ -1,11 +1,11 @@
 stage 'Checkout'
- node('master') {
+ node {
    deleteDir()
      checkout scm
-     }
+       }
 
 stage 'Catfile'
- node('master') {
-   sh echo scm
+ node {
+   sh "cat Jenkinsfile"
  	}
 
