@@ -4,7 +4,3 @@ stage 'Checkout'
      checkout scm
       }
 
-stage 'Code Pull'
- node ('master') {
-   git pull
- 	  }
