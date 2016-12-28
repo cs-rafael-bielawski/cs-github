@@ -4,5 +4,3 @@
 | Tables | Ovo | Batata |
 | -------| :---| ------:|
 ok
-ok
-ok
